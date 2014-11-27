@@ -27,14 +27,14 @@
             // compute the values for the fibonacci series
             for(int n = 2; n < range; n++){
                
-               febSeries[n] = febSeries[n - 1] + febSeries[n - 2];
+               feboSeries[n] = feboSeries[n - 1] + feboSeries[n - 2];
 
             }
 
             // print the values stored in the array
             for(int i = 0; i < range; i++) {
                
-               System.out.print(febSeries[i] + " ");
+               System.out.print(feboSeries[i] + " ");
 
             }
         }
