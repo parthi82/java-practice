@@ -8,16 +8,17 @@
    */
  
    import java.util.Scanner;
-   public class AmstrongNumber {
+   public class AmstronNumber {
 
        public static void main(String[] args) {
 
-           Scanner stdin = new Scanner(Sysstem.in); 
+           Scanner stdin = new Scanner(System.in); 
            int input, copyOfInput;
            int lastDigit;
            int output = 0;
            System.out.println("Enter a number");
            input = stdin.nextInt();
+           copyOfInput = input;
 
            while(input != 0) {
 
@@ -26,7 +27,7 @@
               input = input / 10;
            }
 
-           if ( input == copyOfInput) {
+           if ( output == copyOfInput) {
              
               System.out.println("The number is a Amstrong");
 
