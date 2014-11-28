@@ -13,8 +13,8 @@
        public static void main(String[] args) {
 
            Scanner stdin = new Scanner(Sysstem.in); 
-           int input, copyOfInput,
-           int lastDigit
+           int input, copyOfInput;
+           int lastDigit;
            int output = 0;
            System.out.println("Enter a number");
            input = stdin.nextInt();
@@ -32,7 +32,7 @@
 
            } else {
 
-              System.out.println("The number is not a Amstrong number")
+              System.out.println("The number is not a Amstrong number");
 
            }
 
