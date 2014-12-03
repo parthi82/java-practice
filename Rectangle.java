@@ -11,7 +11,7 @@
 
        // constructor
        public Rectangle(String color, int length, int width) {
-       	   super(color);
+       	   super(color);  // call constructor of super class
        	   this.length = length;
        	   this.width = width;
        }  
