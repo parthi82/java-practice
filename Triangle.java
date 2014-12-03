@@ -18,7 +18,7 @@
 
    	  @Override
    	  public String toString() {
-   	  	 return "Triangle of base = " + base + " and width " + width + " and subclass of " + super.toString(); // call toString method of superclass 
+   	  	 return "Triangle of base = " + base + " and height " + height + " and subclass of " + super.toString(); // call toString method of superclass 
    	  }
 
    	  @Override 
