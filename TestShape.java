@@ -10,12 +10,12 @@
     *     overrides methods in the superclass, the subclass's version will be executed, instead of the superclass's version. 
     */
 
-    puclic class TestShape {
+    public class TestShape {
 
        public static void main(String[] args) {
 
           // create reference of Shape class and assign it to instance of its subclass Rectangle
-          Shape s1 = new Rectangle("RED", 4, 5) 
+          Shape s1 = new Rectangle("RED", 4, 5); 
           // print using the toString() method in the subclass
           System.out.println(s1);
           // print values from overriden getArea() method in the subclass
@@ -32,8 +32,8 @@
 
        // check if instance of sub class is also an instance of the super class
        Rectangle r1 = new Rectangle("red", 4, 6);
-       System.out.println(r1 instanceOf Rectangle); // true
-       System.out.println(r1 instanceOf Circle);   // true
+       System.out.println(r1 instanceof Rectangle); // true
+       System.out.println(r1 instanceof Circle);   // true
 
 
     }
