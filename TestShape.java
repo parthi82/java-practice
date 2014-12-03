@@ -32,10 +32,9 @@
 
           // check if instance of sub class is also an instance of the super class
           Rectangle r1 = new Rectangle("red", 4, 6);
-          if (r1 instanceof Rectangle)
-          System.out.println(true);
-          if (r1 instanceof Shape)   
-          System.out.println(true);
+          System.out.println(r1 instanceof Rectangle);
+          System.out.println(r1 instanceof Shape);
+          
       }
 
     }

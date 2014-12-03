@@ -3,7 +3,7 @@
     * Defined as subclass of Shape 
     */
 
-   public class Rectangle extendes Shape {
+   public class Rectangle extends Shape {
           
        // private member variable
        private int length;
