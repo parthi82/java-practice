@@ -11,7 +11,7 @@
 
       // constructor 
       public Shape(String color) {
-         this.color =color;
+         this.color = color;
       }
        
       // methods 
