@@ -37,7 +37,7 @@
           }
 
           if(number == reverseOfNumber) 
-             System.out.println(number + " is a palindrome. ");
+             System.out.println(number + " is a palindrome ! ");
           else 
              System.out.println( number + " is not a palindrome. ");
       }
