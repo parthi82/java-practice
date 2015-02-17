@@ -7,10 +7,12 @@
    */
 
    public class CircleWithCounter {
-
-      static int count = 0;  // static variable used to count the number of instances created
-
-      private double radius; // Instance variable 
+     
+      // static variable used to count the number of instances created
+      static int count = 0;
+      
+      // Instance variable
+      private double radius; 
       
       // constructor
       public CircleWithCounter(double radius) {

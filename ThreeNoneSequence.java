@@ -26,7 +26,8 @@
        }   
        
        public static void main(String[] args) {
-
+          
+          // convert the cmd line argument to a long datatype  
           long input = Long.parseLong(args[0]);
 
 

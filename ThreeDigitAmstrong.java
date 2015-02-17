@@ -38,9 +38,11 @@
         int sum = 0;
 
         while(copyOfNumber != 0) {
-
+         
+          // Find the last digit of the number
           int lastNumber = copyOfNumber % 10;
           sum += (lastNumber * lastNumber * lastNumber);
+          // remove the last digit
           copyOfNumber /= 10;
 
         }

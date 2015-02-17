@@ -12,7 +12,7 @@
    	  // constructor
    	  public Triangle(String color, int base, int height) {
    	  	super(color); // call constructor of superclass 
-   	  	this.base =base;
+   	  	this.base = base;
    	  	this.height = height;
    	  }
 
