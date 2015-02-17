@@ -15,7 +15,7 @@ import java.util.ArrayList;
  		list.add(300);
 
  		for(Integer num: list) {
- 			System.out.println(num)
+ 			System.out.println(num);
  		}
 
  	}
