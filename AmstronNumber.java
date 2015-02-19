@@ -21,9 +21,11 @@
            copyOfInput = input;
 
            while(input != 0) {
-
+              
+              // find the last digit of the number   
               lastDigit = input % 10;
               output = output + (lastDigit * lastDigit * lastDigit);
+              // discard the last digit
               input = input / 10;
            }
 
